@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites name="vitest tests" tests="12" failures="0" errors="0" time="0.003000542">
+    <testsuite name="tests/main.test.js" timestamp="2025-02-24T13:26:52.083Z" hostname="MbaBok.local" tests="12" failures="0" errors="0" skipped="0" time="0.003000542">
+        <testcase classname="tests/main.test.js" name="add(numbersStr) return 0 with empty" time="0.000605084">
+        </testcase>
+        <testcase classname="tests/main.test.js" name="add(numbersStr) return 1 with &quot;1&quot;" time="0.000117667">
+        </testcase>
+        <testcase classname="tests/main.test.js" name="add(numbersStr) return 3 with &quot;1,2&quot;" time="0.000133083">
+        </testcase>
+        <testcase classname="tests/main.test.js" name="add(numbersStr) return 6 with &quot;1
+2,3&quot;" time="0.000128417">
+        </testcase>
+        <testcase classname="tests/main.test.js" name="add(numbersStr) with &quot;1,
+&quot; is not valid" time="0.00060375">
+        </testcase>
+        <testcase classname="tests/main.test.js" name="add(numbersStr) return 3 with &quot;//;
+1;2&quot;" time="0.000117833">
+        </testcase>
+        <testcase classname="tests/main.test.js" name="add(numbersStr) with &quot;-1,2&quot; is not valid" time="0.00010575">
+        </testcase>
+        <testcase classname="tests/main.test.js" name="add(numbersStr) with &quot;-1,-2&quot; is not valid" time="0.000084">
+        </testcase>
+        <testcase classname="tests/main.test.js" name="add(numbersStr) return 3 with &quot;1
+2,1002&quot;" time="0.00012025">
+        </testcase>
+        <testcase classname="tests/main.test.js" name="add(numbersStr) return 6 with &quot;//[***]
+1***2***3&quot;" time="0.000238917">
+        </testcase>
+        <testcase classname="tests/main.test.js" name="add(numbersStr) return 6 with &quot;//[*][%]
+1*2%3&quot;" time="0.000087834">
+        </testcase>
+        <testcase classname="tests/main.test.js" name="add(numbersStr) return 6 with &quot;//[**][%%]
+1**2%%3&quot;" time="0.000090333">
+        </testcase>
+    </testsuite>
+</testsuites>
